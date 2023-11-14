@@ -20,6 +20,7 @@
     {"name":"spr_player_left","order":4,"path":"sprites/spr_player_left/spr_player_left.yy",},
     {"name":"spr_player_down","order":1,"path":"sprites/spr_player_down/spr_player_down.yy",},
     {"name":"obj_tree","order":1,"path":"objects/obj_tree/obj_tree.yy",},
+    {"name":"spr_butcher","order":9,"path":"sprites/spr_butcher/spr_butcher.yy",},
     {"name":"spr_player_right","order":3,"path":"sprites/spr_player_right/spr_player_right.yy",},
     {"name":"spr_vamp","order":7,"path":"sprites/spr_vamp/spr_vamp.yy",},
     {"name":"spr_player_up","order":2,"path":"sprites/spr_player_up/spr_player_up.yy",},
