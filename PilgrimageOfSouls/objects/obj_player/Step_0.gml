@@ -25,11 +25,13 @@ y += y_spd;
 	// Aim
 	aim_dir = point_direction(x, y, mouse_x, mouse_y);
 	
-	
 // Sprite control
 	face = round(aim_dir/90);
 	if face == 4 { face = 3 }
-
+	
+// Depth
+	depth = -bbox_bottom;
+	
 // Sprite control ( legacy )
 #region
 	// Face proper direction
