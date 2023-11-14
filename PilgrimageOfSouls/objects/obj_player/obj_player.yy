@@ -32,6 +32,9 @@
     "name": "spr_player_down",
     "path": "sprites/spr_player_down/spr_player_down.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_player_down",
+    "path": "sprites/spr_player_down/spr_player_down.yy",
+  },
   "visible": true,
 }

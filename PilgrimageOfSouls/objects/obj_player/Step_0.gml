@@ -19,3 +19,12 @@ if (place_meeting(x, y + y_spd, obj_tree)) {
 // Player movement
 x += x_spd;
 y += y_spd;
+
+// Sprite control
+	// Face proper direction
+	if (x_spd > 0) { face = 0 };
+	if (x_spd < 0) { face = 2 };
+	if (y_spd > 0) { face = 3 };
+	if (y_spd < 0) { face = 1 };
+	// Set player sprite
+	sprite_index = sprite[face]
