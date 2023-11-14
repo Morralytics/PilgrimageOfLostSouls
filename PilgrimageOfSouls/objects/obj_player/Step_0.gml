@@ -20,11 +20,25 @@ if (place_meeting(x, y + y_spd, obj_tree)) {
 x += x_spd;
 y += y_spd;
 
+
+// Player aim
+	// Aim
+	aim_dir = point_direction(x, y, mouse_x, mouse_y);
+	
+	
 // Sprite control
+	face = round(aim_dir/90);
+	if face == 4 { face = 3 }
+
+// Sprite control ( legacy )
+#region
 	// Face proper direction
-	if (x_spd > 0) { face = 0 };
-	if (x_spd < 0) { face = 2 };
-	if (y_spd > 0) { face = 3 };
-	if (y_spd < 0) { face = 1 };
+	// if (aim_dir > 0) { face = 0 };
+	// if (aim_dir < 0) { face = 2 };
+	// if (aim_dir > 0) { face = 3 };
+	// if (aim_dir < 0) { face = 1 };
+	
 	// Set player sprite
 	sprite_index = sprite[face]
+	
+#endregion
