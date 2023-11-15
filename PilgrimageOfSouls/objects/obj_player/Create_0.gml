@@ -6,6 +6,7 @@ move_spd = 1;
 
 // Sprite control
 aim_dir = 0;
+weapon_offset_dist = 3;
 face = 3;
 sprite[0] = spr_player_right;
 sprite[1] = spr_player_up;
