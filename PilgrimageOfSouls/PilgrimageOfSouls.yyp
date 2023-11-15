@@ -45,6 +45,7 @@
     {"id":{"name":"spr_player_up","path":"sprites/spr_player_up/spr_player_up.yy",},},
     {"id":{"name":"spr_moosh","path":"sprites/spr_moosh/spr_moosh.yy",},},
     {"id":{"name":"spr_green_faction","path":"sprites/spr_green_faction/spr_green_faction.yy",},},
+    {"id":{"name":"custom_functions","path":"scripts/custom_functions/custom_functions.yy",},},
     {"id":{"name":"spr_gungun","path":"sprites/spr_gungun/spr_gungun.yy",},},
     {"id":{"name":"spr_butcher","path":"sprites/spr_butcher/spr_butcher.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
