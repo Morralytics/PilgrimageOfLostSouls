@@ -1,2 +1,8 @@
-_player_location_x = get_player_location_x();
-_player_location_y = get_player_location_y();
+_player_location_x = obj_player.x;
+_player_location_y = obj_player.y;
+
+_weapon_y_scale = 1;
+weapon_dir = 1;
+
+// aim_x = 0;
+// aim_y = 0;
