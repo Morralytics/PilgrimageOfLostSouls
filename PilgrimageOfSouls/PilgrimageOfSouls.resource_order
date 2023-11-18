@@ -17,7 +17,9 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"obj_cave","order":3,"path":"objects/obj_cave/obj_cave.yy",},
     {"name":"spr_player_left","order":4,"path":"sprites/spr_player_left/spr_player_left.yy",},
+    {"name":"spr_cave","order":11,"path":"sprites/spr_cave/spr_cave.yy",},
     {"name":"spr_player_down","order":1,"path":"sprites/spr_player_down/spr_player_down.yy",},
     {"name":"obj_tree","order":1,"path":"objects/obj_tree/obj_tree.yy",},
     {"name":"spr_cleaver","order":9,"path":"sprites/spr_cleaver/spr_cleaver.yy",},
