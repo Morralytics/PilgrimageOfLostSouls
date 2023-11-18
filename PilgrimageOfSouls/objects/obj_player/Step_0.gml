@@ -8,11 +8,11 @@ x_spd = (move_right - move_left) * move_spd;
 y_spd = (move_down - move_up) * move_spd;
 
 // Collisions
-if (place_meeting(x + x_spd, y, obj_tree)) {
+if (place_meeting(x + x_spd, y, [obj_tree, obj_gungun])) {
 	x_spd = 0;
 }
 
-if (place_meeting(x, y + y_spd, obj_tree)) {
+if (place_meeting(x, y + y_spd, [obj_tree, obj_gungun])) {
 	y_spd = 0;
 }
 

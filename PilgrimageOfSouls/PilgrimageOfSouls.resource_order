@@ -22,6 +22,7 @@
     {"name":"obj_tree","order":1,"path":"objects/obj_tree/obj_tree.yy",},
     {"name":"spr_cleaver","order":9,"path":"sprites/spr_cleaver/spr_cleaver.yy",},
     {"name":"spr_player_right","order":3,"path":"sprites/spr_player_right/spr_player_right.yy",},
+    {"name":"obj_gungun","order":2,"path":"objects/obj_gungun/obj_gungun.yy",},
     {"name":"spr_vamp","order":7,"path":"sprites/spr_vamp/spr_vamp.yy",},
     {"name":"spr_player_up","order":2,"path":"sprites/spr_player_up/spr_player_up.yy",},
     {"name":"spr_moosh","order":6,"path":"sprites/spr_moosh/spr_moosh.yy",},
