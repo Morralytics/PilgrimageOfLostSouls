@@ -40,6 +40,7 @@
     {"id":{"name":"obj_tree","path":"objects/obj_tree/obj_tree.yy",},},
     {"id":{"name":"spr_cleaver","path":"sprites/spr_cleaver/spr_cleaver.yy",},},
     {"id":{"name":"spr_player_right","path":"sprites/spr_player_right/spr_player_right.yy",},},
+    {"id":{"name":"spr_gungun_spawn","path":"sprites/spr_gungun_spawn/spr_gungun_spawn.yy",},},
     {"id":{"name":"obj_gungun","path":"objects/obj_gungun/obj_gungun.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"spr_vamp","path":"sprites/spr_vamp/spr_vamp.yy",},},
@@ -50,6 +51,7 @@
     {"id":{"name":"custom_functions","path":"scripts/custom_functions/custom_functions.yy",},},
     {"id":{"name":"spr_gungun","path":"sprites/spr_gungun/spr_gungun.yy",},},
     {"id":{"name":"spr_butcher","path":"sprites/spr_butcher/spr_butcher.yy",},},
+    {"id":{"name":"obj_gungun_spawn","path":"objects/obj_gungun_spawn/obj_gungun_spawn.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
