@@ -10,12 +10,13 @@ function draw_weapon() {
 	
 	// Weapon distance from player origin
 		// we want the weapon to offset in the direction that it is aiming
-		var _x_offset = lengthdir_x( weapon_offset_dist, aim_dir );
-		var _y_offset = lengthdir_y( weapon_offset_dist, aim_dir );
+		// var _x_offset = lengthdir_x( weapon_offset_dist, aim_dir );
+		// var _y_offset = lengthdir_y( weapon_offset_dist, aim_dir );
 		
 	// Draw weapon
 	// ( sprite, image index, players x, players y, x scale, y scale, rotation, color blend, opacity )
-	draw_sprite_ext( spr_butcher, 0, x + _x_offset, y + _y_offset, 1, _weapon_y_scale, aim_dir, c_white, 1 );
+	// draw_sprite_ext( spr_cleaver, 0, x + _x_offset, y + _y_offset, 1, _weapon_y_scale, aim_dir, c_white, 1 );
+	
 	
 	// Draw weapon ( legacy )
 	#region
@@ -36,3 +37,12 @@ function draw_weapon() {
 		// }
 	#endregion
 };
+
+// Get Player Location
+function get_player_location_x() {
+	return obj_player.x;
+}
+
+function get_player_location_y() {
+	return obj_player.y;
+}

@@ -24,6 +24,7 @@
     {"name":"spr_player_right","order":3,"path":"sprites/spr_player_right/spr_player_right.yy",},
     {"name":"spr_vamp","order":7,"path":"sprites/spr_vamp/spr_vamp.yy",},
     {"name":"spr_player_up","order":2,"path":"sprites/spr_player_up/spr_player_up.yy",},
+    {"name":"obj_butcher","order":2,"path":"objects/obj_butcher/obj_butcher.yy",},
     {"name":"spr_moosh","order":6,"path":"sprites/spr_moosh/spr_moosh.yy",},
     {"name":"spr_green_faction","order":5,"path":"sprites/spr_green_faction/spr_green_faction.yy",},
     {"name":"spr_gungun","order":8,"path":"sprites/spr_gungun/spr_gungun.yy",},

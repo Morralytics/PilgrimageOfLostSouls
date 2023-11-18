@@ -43,6 +43,7 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"spr_vamp","path":"sprites/spr_vamp/spr_vamp.yy",},},
     {"id":{"name":"spr_player_up","path":"sprites/spr_player_up/spr_player_up.yy",},},
+    {"id":{"name":"obj_butcher","path":"objects/obj_butcher/obj_butcher.yy",},},
     {"id":{"name":"spr_moosh","path":"sprites/spr_moosh/spr_moosh.yy",},},
     {"id":{"name":"spr_green_faction","path":"sprites/spr_green_faction/spr_green_faction.yy",},},
     {"id":{"name":"custom_functions","path":"scripts/custom_functions/custom_functions.yy",},},

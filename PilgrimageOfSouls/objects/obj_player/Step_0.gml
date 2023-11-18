@@ -7,6 +7,13 @@ move_down = keyboard_check(ord("S")) || keyboard_check(vk_down);
 x_spd = (move_right - move_left) * move_spd;
 y_spd = (move_down - move_up) * move_spd;
 
+
+// Weapon Check
+if (equip == 1) { 
+	instance_create_layer(x + _x_offset, y + _y_offset, 0, obj_butcher);
+	equip = 0;
+};
+
 // Collisions
 if (place_meeting(x + x_spd, y, obj_tree)) {
 	x_spd = 0;
