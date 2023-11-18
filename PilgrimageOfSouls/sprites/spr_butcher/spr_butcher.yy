@@ -3,7 +3,7 @@
   "resourceVersion": "1.0",
   "name": "spr_butcher",
   "bbox_bottom": 11,
-  "bbox_left": 6,
+  "bbox_left": 5,
   "bbox_right": 14,
   "bbox_top": 7,
   "bboxMode": 2,

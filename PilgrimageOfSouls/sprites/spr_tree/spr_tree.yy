@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_tree",
-  "bbox_bottom": 16,
+  "bbox_bottom": 15,
   "bbox_left": 4,
   "bbox_right": 11,
   "bbox_top": 14,
