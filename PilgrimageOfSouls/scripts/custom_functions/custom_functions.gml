@@ -1,12 +1,13 @@
 // Draw player weapon
 function draw_weapon() {
+	#region
 	// Draw the weapon
 
 	// Weapon flip
-	var _weapon_y_scale = 1;
-	if aim_dir > 90 && aim_dir < 270 {
-		_weapon_y_scale = -1;
-	}
+	// var _weapon_y_scale = 1;
+	// if aim_dir > 90 && aim_dir < 270 {
+		// _weapon_y_scale = -1;
+	// }
 	
 	// Weapon distance from player origin
 		// we want the weapon to offset in the direction that it is aiming
@@ -35,6 +36,7 @@ function draw_weapon() {
 		// if (face == 3) {
 			// draw_sprite_ext( spr_butcher, 0, x, y + 3, 1, _weapon_y_scale, aim_dir, c_white, 1 );	
 		// }
+	#endregion
 	#endregion
 };
 

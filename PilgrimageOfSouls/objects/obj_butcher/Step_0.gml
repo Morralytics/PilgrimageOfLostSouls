@@ -5,7 +5,6 @@ x = _player_location_x;
 y = _player_location_y;
 
 weapon_dir = obj_player.aim_dir;
-
 image_angle = weapon_dir;
 
 // Weapon flip
@@ -14,5 +13,6 @@ image_angle = weapon_dir;
 		_weapon_y_scale = -1;
 	}
 	
-	
 image_yscale = _weapon_y_scale;
+
+depth = -bbox_bottom;

@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_butcher",
-  "bbox_bottom": 11,
+  "bbox_bottom": 12,
   "bbox_left": 5,
   "bbox_right": 14,
   "bbox_top": 7,
