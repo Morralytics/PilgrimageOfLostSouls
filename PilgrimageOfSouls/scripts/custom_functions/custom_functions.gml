@@ -48,3 +48,40 @@ function get_player_location_x() {
 function get_player_location_y() {
 	return obj_player.y;
 }
+
+// Spawn within a specified region defined in the spawner init variables
+function spawn_region() {
+	if (count < max_spawn && (irandom(10)==3)) {
+		var _x_spawn = irandom_range(-max_range, max_range);
+		randomize();
+		
+		// Checks for x range and creates random y cordinate
+		#region
+		if (_x_spawn >= min_range) {
+			var _y_spawn = irandom_range(-max_range, max_range);
+			instance_create_layer(x + _x_spawn, y + _y_spawn, 0, obj_gungun);
+			count++;
+		}
+		if (_x_spawn <= -min_range) {
+			var _y_spawn = irandom_range(-max_range, max_range);
+			instance_create_layer(x + _x_spawn, y + _y_spawn, 0, obj_gungun);
+			count++;
+		}
+		#endregion
+	
+		// Checks for y range and creates random x cordinate
+		#region
+		var _y_spawn = irandom_range(-max_range, max_range);
+		if (_y_spawn >= min_range) {
+			_x_spawn = irandom_range(-max_range, max_range);
+			instance_create_layer(x + _x_spawn, y + _y_spawn, 0, obj_gungun);
+			count++;
+		}
+		if (_y_spawn <= -min_range) {
+			_x_spawn = irandom_range(-max_range, max_range);
+			instance_create_layer(x + _x_spawn, y + _y_spawn, 0, obj_gungun);
+			count++;
+		}
+		#endregion
+	}
+}
