@@ -1,3 +1,5 @@
+left_click = mouse_check_button_pressed(mb_left);
+
 _player_location_x = obj_player.x;
 _player_location_y = obj_player.y;
 
@@ -11,3 +13,7 @@ image_angle = weapon_dir;
 image_yscale = _weapon_y_scale;
 
 depth = -bbox_bottom;
+
+if (left_click) {
+	instance_create_layer(x, y, 0, obj_arrow);
+}
