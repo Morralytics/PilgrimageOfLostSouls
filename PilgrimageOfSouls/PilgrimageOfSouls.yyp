@@ -48,6 +48,8 @@
     {"id":{"name":"spr_cleaver","path":"sprites/spr_cleaver/spr_cleaver.yy",},},
     {"id":{"name":"spr_player_right","path":"sprites/spr_player_right/spr_player_right.yy",},},
     {"id":{"name":"spr_gungun_spawn","path":"sprites/spr_gungun_spawn/spr_gungun_spawn.yy",},},
+    {"id":{"name":"spr_gungun_dead","path":"sprites/spr_gungun_dead/spr_gungun_dead.yy",},},
+    {"id":{"name":"obj_gungun_dead","path":"objects/obj_gungun_dead/obj_gungun_dead.yy",},},
     {"id":{"name":"obj_gungun","path":"objects/obj_gungun/obj_gungun.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"spr_vamp","path":"sprites/spr_vamp/spr_vamp.yy",},},
