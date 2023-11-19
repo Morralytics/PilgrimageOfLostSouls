@@ -15,5 +15,7 @@ image_yscale = _weapon_y_scale;
 depth = -bbox_bottom;
 
 if (left_click) {
+	click_x = mouse_x;
+	click_y = mouse_y;
 	instance_create_layer(x, y, 0, obj_arrow);
 }
