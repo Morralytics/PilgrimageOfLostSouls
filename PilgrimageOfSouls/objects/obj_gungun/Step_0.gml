@@ -8,6 +8,7 @@ if (place_meeting(x, y, obj_arrow)) {
 	instance_destroy();
 }
 
-if (hp < 1) {
+if (hp <= 0) {
+	instance_create_layer(x,y, 0, obj_gungun_dead);
 	instance_destroy();
 }
