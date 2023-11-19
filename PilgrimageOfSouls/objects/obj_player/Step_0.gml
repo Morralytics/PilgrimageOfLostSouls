@@ -10,7 +10,7 @@ y_spd = (move_down - move_up) * move_spd;
 
 // Weapon Check
 if (equip == 1) { 
-	instance_create_layer(x + _x_offset, y + _y_offset, 0, obj_butcher);
+	instance_create_layer(x + _x_offset, y + _y_offset, 0, obj_bow);
 	equip = 0;
 };
 
