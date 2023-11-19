@@ -25,7 +25,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_gungun_dead",
+    "path": "sprites/spr_gungun_dead/spr_gungun_dead.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }
