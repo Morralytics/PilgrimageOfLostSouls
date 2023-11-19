@@ -1,6 +1,13 @@
 depth = -bbox_top;
-y += 1;
 
 if (place_meeting(x, y, obj_butcher)) {
+	instance_destroy();
+}
+
+if (place_meeting(x, y, obj_arrow)) {
+	instance_destroy();
+}
+
+if (hp < 1) {
 	instance_destroy();
 }
