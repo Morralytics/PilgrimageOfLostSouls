@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_gungun_spawn",
+  "name": "obj_gungun_staff",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -29,9 +29,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_gungun_spawn",
-    "path": "sprites/spr_gungun_spawn/spr_gungun_spawn.yy",
+    "name": "spr_gungun_staff",
+    "path": "sprites/spr_gungun_staff/spr_gungun_staff.yy",
   },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }

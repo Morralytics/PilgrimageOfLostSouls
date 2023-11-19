@@ -1,1 +1,1 @@
-spawn_region();
+spawn_region(obj_moosh);

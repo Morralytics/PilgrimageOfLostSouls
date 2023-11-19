@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_gungun_spawn",
+  "name": "obj_moosh",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
@@ -29,9 +29,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_gungun_spawn",
-    "path": "sprites/spr_gungun_spawn/spr_gungun_spawn.yy",
+    "name": "spr_moosh",
+    "path": "sprites/spr_moosh/spr_moosh.yy",
   },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }

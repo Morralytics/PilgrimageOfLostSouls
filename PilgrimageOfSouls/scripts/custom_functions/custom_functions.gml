@@ -50,7 +50,7 @@ function get_player_location_y() {
 }
 
 // Spawn within a specified region defined in the spawner init variables
-function spawn_region() {
+function spawn_region(_enemy) {
 	if (count < max_spawn && (irandom(10)==3)) {
 		var _x_spawn = irandom_range(-max_range, max_range);
 		randomize();
@@ -59,12 +59,12 @@ function spawn_region() {
 		#region
 		if (_x_spawn >= min_range) {
 			var _y_spawn = irandom_range(-max_range, max_range);
-			instance_create_layer(x + _x_spawn, y + _y_spawn, 0, obj_gungun);
+			instance_create_layer(x + _x_spawn, y + _y_spawn, 0, _enemy);
 			count++;
 		}
 		if (_x_spawn <= -min_range) {
 			var _y_spawn = irandom_range(-max_range, max_range);
-			instance_create_layer(x + _x_spawn, y + _y_spawn, 0, obj_gungun);
+			instance_create_layer(x + _x_spawn, y + _y_spawn, 0, _enemy);
 			count++;
 		}
 		#endregion
@@ -74,12 +74,12 @@ function spawn_region() {
 		var _y_spawn = irandom_range(-max_range, max_range);
 		if (_y_spawn >= min_range) {
 			_x_spawn = irandom_range(-max_range, max_range);
-			instance_create_layer(x + _x_spawn, y + _y_spawn, 0, obj_gungun);
+			instance_create_layer(x + _x_spawn, y + _y_spawn, 0, _enemy);
 			count++;
 		}
 		if (_y_spawn <= -min_range) {
 			_x_spawn = irandom_range(-max_range, max_range);
-			instance_create_layer(x + _x_spawn, y + _y_spawn, 0, obj_gungun);
+			instance_create_layer(x + _x_spawn, y + _y_spawn, 0, _enemy);
 			count++;
 		}
 		#endregion
