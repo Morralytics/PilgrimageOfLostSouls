@@ -1,6 +1,7 @@
 // GunGun variables
 hp = 3;
 dmg = 1;
+flash = 0;
 
 x_spd = 0;
 y_spd = 0;
